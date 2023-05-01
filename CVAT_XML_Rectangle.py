@@ -4,9 +4,6 @@ import matplotlib.patches as patches
 import xml.etree.ElementTree as ET
 import random
 
-def random_color():
-    return (random.random(), random.random(), random.random())
-
 # Парсинг XML файла
 tree = ET.parse('annotations.xml')
 root = tree.getroot()
